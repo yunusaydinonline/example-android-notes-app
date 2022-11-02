@@ -1,0 +1,72 @@
+<resources>
+
+    <style name="info_text_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:paddingHorizontal">16dp</item>
+    </style>
+
+    <style name="add_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">end|bottom</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:src">@android:drawable/ic_input_add</item>
+        <item name="android:background">@color/deep_orange_500</item>
+        <item name="android:backgroundTint">@color/color_states_fab</item>
+    </style>
+
+    <style name="edit_text_base">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/selector_edit_text</item>
+        <item name="android:gravity">top|start</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:inputType">textCapSentences|textMultiLine</item>
+        <item name="android:paddingHorizontal">16dp</item>
+        <item name="android:paddingVertical">16dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="title_edit_text" parent="edit_text_base">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="content_edit_text" parent="edit_text_base">
+        <item name="android:minHeight">200dp</item>
+    </style>
+
+    <style name="image_url_edit_text" parent="edit_text_base">
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="note_info_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_marginVertical">16dp</item>
+    </style>
+
+    <style name="content_image_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="dates_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingHorizontal">8dp</item>
+    </style>
+
+    <style name="date_text_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginHorizontal">8dp</item>
+    </style>
+
+</resources>

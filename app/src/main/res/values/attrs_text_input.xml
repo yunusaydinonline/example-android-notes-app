@@ -1,0 +1,5 @@
+<resources>
+    <declare-styleable name="TextInput">
+        <attr name="allowLineBreaks" format="boolean" />
+    </declare-styleable>
+</resources>

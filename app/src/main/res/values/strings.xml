@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="no_data_found">No data found! Start adding your notes.</string>
+    <string name="create_note">Create New Note</string>
+    <string name="save_note">Save note</string>
+    <string name="save">SAVE</string>
+    <string name="edit">EDIT</string>
+    <string name="delete">DELETE</string>
+    <string name="cancel">@android:string/cancel</string>
+    <string name="ok">@android:string/ok</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="title_edit_text_hint">Title</string>
+    <string name="content_edit_text_hint">Type something…</string>
+    <string name="image_url_edit_text_hint">Image URL (Optional)</string>
+    <string name="dialog_title">Are you sure ?</string>
+    <string name="dialog_message">Do you want to delete note ?</string>
+</resources>

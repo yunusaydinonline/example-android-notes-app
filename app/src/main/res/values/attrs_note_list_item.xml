@@ -1,0 +1,4 @@
+<resources>
+    <declare-styleable name="NoteListItem">
+    </declare-styleable>
+</resources>

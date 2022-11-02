@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.NoteActivity">
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.task.noteapp.components.TextInput
+                android:id="@+id/text_input_title"
+                style="@style/title_edit_text"
+                android:hint="@string/title_edit_text_hint"
+                android:importantForAutofill="no"
+                app:allowLineBreaks="false" />
+
+            <LinearLayout
+                android:id="@+id/linear_layout_content_info"
+                style="@style/note_info_container"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/image_view_content"
+                    style="@style/content_image_view" />
+
+                <LinearLayout
+                    style="@style/dates_container"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/text_view_created_at"
+                        style="@style/date_text_view" />
+
+                    <TextView
+                        android:id="@+id/text_view_updated_at"
+                        style="@style/date_text_view" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <com.task.noteapp.components.TextInput
+                android:id="@+id/text_input_content"
+                style="@style/content_edit_text"
+                android:hint="@string/content_edit_text_hint"
+                android:importantForAutofill="no" />
+
+            <View
+                android:id="@+id/view_separator"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <com.task.noteapp.components.TextInput
+                android:id="@+id/text_input_image_url"
+                style="@style/image_url_edit_text"
+                android:hint="@string/image_url_edit_text_hint"
+                android:importantForAutofill="no" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
